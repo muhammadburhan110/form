@@ -1,0 +1,23 @@
+.body{
+    background-color: black;
+}
+.form{
+    padding-left:500px;
+    color: aliceblue;
+
+}
+.Register{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: aliceblue;
+}
+.btn{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border: none;
+    padding: 3px;
+}

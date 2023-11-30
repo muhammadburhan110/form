@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGRISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+    <h1 class="form">REGRISTRATION FORM</h1>
+
+    <form class="Register" id="registrationForm">
+        <label class="user" for="userName">USER NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="userName" name="userName" required>
+        <br><br>
+        <br>
+
+        <label class="phone" for="phoneNumber">PHONE NUMBER:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        <br><br>
+        <br>
+        <label class="email" for="email">EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <br>
+        <label class="pass" for="password">PASSWORD:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <br>
+        <label class="confirm" for="confirmPassword">CONFIRM PASSWORD:&nbsp;&nbsp;</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <br><br>
+        <br>
+        <button class="btn" onclick="registerUser()">SIGN UP</button>
+    </form >
+
+    <script src="app.js">
+       
+    </script>
+</body>
+</html>
